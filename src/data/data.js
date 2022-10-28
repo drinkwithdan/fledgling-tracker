@@ -1,3 +1,9 @@
+/*
+
+Data structure is a pseudo Binary Tree. Don't judge me!
+
+*/
+
 const data = [
   {
     id: 4,
