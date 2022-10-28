@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fledgling-tracker/static/css/main.6cfabcfb.css",
-    "main.js": "/fledgling-tracker/static/js/main.97f1d8f1.js",
+    "main.css": "/fledgling-tracker/static/css/main.dba2d505.css",
+    "main.js": "/fledgling-tracker/static/js/main.20b59a71.js",
     "static/js/787.6da617d9.chunk.js": "/fledgling-tracker/static/js/787.6da617d9.chunk.js",
     "static/media/bird.png": "/fledgling-tracker/static/media/bird.b57ab9992a8c5de3ed7e.png",
     "index.html": "/fledgling-tracker/index.html",
-    "main.6cfabcfb.css.map": "/fledgling-tracker/static/css/main.6cfabcfb.css.map",
-    "main.97f1d8f1.js.map": "/fledgling-tracker/static/js/main.97f1d8f1.js.map",
+    "main.dba2d505.css.map": "/fledgling-tracker/static/css/main.dba2d505.css.map",
+    "main.20b59a71.js.map": "/fledgling-tracker/static/js/main.20b59a71.js.map",
     "787.6da617d9.chunk.js.map": "/fledgling-tracker/static/js/787.6da617d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cfabcfb.css",
-    "static/js/main.97f1d8f1.js"
+    "static/css/main.dba2d505.css",
+    "static/js/main.20b59a71.js"
   ]
 }
