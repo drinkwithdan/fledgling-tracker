@@ -1,38 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: lightgreen;
+  font-family: "Proxima Nova", "Helvetica", sans-serif;
+}
+
+
+#root {
+  height: 100%;
+}
+
 .App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  height: 20%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: green;
+  text-align: center;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: aliceblue;
+  margin: 10px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-image {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-image img{
+  height: 40px;
+}
+
+.tracker {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracker h3 {
+  font-family: 'Raleway', "Proxima Nova", sans-serif;
+  font-size: 25px;
+  color: green;
+}
+
+.dialog-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.dialog-title {
+  text-align: center;
+}
+
+.dialog-title p {
+  font-size: 25px;
+}
+
+.dialog-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 60px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: aliceblue;
+  color: green;
+  border: 2px solid green;
+  border-radius: 3px;
+
+}
+
+button:hover {
+  background-color: green;
+  color: aliceblue;
+}
+
+.footer {
+  height: 20%;
+  width: 100%;
+  background-color: green;
+}
+
+.footer p {
+  color: aliceblue;
 }
