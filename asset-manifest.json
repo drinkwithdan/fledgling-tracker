@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fledgling-tracker/static/css/main.6cfabcfb.css",
+    "main.js": "/fledgling-tracker/static/js/main.727cf844.js",
+    "static/js/787.6da617d9.chunk.js": "/fledgling-tracker/static/js/787.6da617d9.chunk.js",
+    "index.html": "/fledgling-tracker/index.html",
+    "main.6cfabcfb.css.map": "/fledgling-tracker/static/css/main.6cfabcfb.css.map",
+    "main.727cf844.js.map": "/fledgling-tracker/static/js/main.727cf844.js.map",
+    "787.6da617d9.chunk.js.map": "/fledgling-tracker/static/js/787.6da617d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cfabcfb.css",
+    "static/js/main.727cf844.js"
+  ]
+}
