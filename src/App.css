@@ -100,18 +100,18 @@ button {
   font-family: "Proxima Nova", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: aliceblue;
-  color: green;
+  background-color:green;
+  color: aliceblue;
   border: 2px solid green;
   border-radius: 3px;
   text-align: center;
 
 }
 
-button:hover {
+/* button:hover {
   background-color: green;
   color: aliceblue;
-}
+} */
 
 .footer {
   height: 20%;
