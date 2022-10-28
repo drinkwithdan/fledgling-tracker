@@ -5,17 +5,19 @@ import data from "../data/data.js"
 const Tracker = () => {
   const [currentLeafId, setCurrentLeafId] = useState(4)
 
-
+  // Handles "yes" requests, left on the binary tree
   const goLeft = () => {
     const currentLeaf = data.find((item) => item.id === currentLeafId)
     setCurrentLeafId(currentLeaf.left)
   }
 
+  // Handles "no" requests, right on the binary tree
   const goRight = () => {
     const currentLeaf = data.find((item) => item.id === currentLeafId)
     setCurrentLeafId(currentLeaf.right)
   }
 
+  // Handler to route clicks from dialog box
   const handleDialogClick = (id) => {
     if (id === "yes") {
       goLeft()
