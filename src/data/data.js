@@ -40,7 +40,7 @@ const data = [
     id: 8,
     left: 6,
     right: 9,
-    text: "This is a fledgling. Normal behaviour includes hopping on the ground and acting clumsy as they learn how to fly from the ground up. Is is safe?"
+    text: "This is a fledgling. Normal behaviour includes hopping on the ground and acting clumsy as they learn how to fly from the ground up. Is it safe?"
   },
   {
     id: 6,
