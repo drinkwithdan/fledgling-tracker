@@ -1,4 +1,6 @@
 const Header = () => {
+  const birdLogo = require("../images/bird.png")
+
   return (
     <div className="header">
       <div className="title">
@@ -6,7 +8,7 @@ const Header = () => {
       </div>
 
       <div className="header-image">
-        <img src="/bird.png" alt="Bird" />
+        <img src={birdLogo} alt="Bird" />
       </div>
 
     </div>
